@@ -14,6 +14,10 @@
 * 	Template Style 
 *
 * ======================================================= */
+html{
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 10em;
+}
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -1103,6 +1107,10 @@ input[type="text"] {
 .gototop a:focus {
   text-decoration: none;
   outline: none;
+}
+
+.skills{
+  text-align: center;
 }
 
 .btn {

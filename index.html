@@ -44,19 +44,17 @@
 	<div class="fh5co-loader"></div>
 
 	<nav class="collapse navbar-collapse sticky-top ">
-	    <div class="container" style="width: 90vw;">
+	    <div class="container" style="width: 98vw;">
 			<a class="navbar-brand" href="index.html">Arya Reyhan</a>
 
 	      <div class="collapse navbar-collapse" style="float: right;">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="index.html#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="index.html#test" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="index.html#services-section" class="nav-link"><span>Services</span></a></li>
-	          <li class="nav-item"><a href="index.html#skills-section" class="nav-link"><span>Skills</span></a></li>
-	          <li class="nav-item"><a href="index.html#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="index.html#blog-section" class="nav-link"><span>My Blog</span></a></li>
-	          <li class="nav-item"><a href="index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+	          <li class="nav-item"><a href="index.html#home" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="index.html#about" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="index.html#skills" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="index.html#resume" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="index.html#portofolio" class="nav-link"><span>Portofolio</span></a></li>
+	          <li class="nav-item"><a href="index.html#cv" class="nav-link btn btn-default btn-lg" style="margin-top: 7px; background-color: rgba(163, 62, 70, 0.9);color: white;"><span>My CV</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -64,7 +62,7 @@
 	
 	<div id="page">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpeg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
+		<div class="overlay" id="home"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
@@ -81,7 +79,7 @@
 								</ul>
 							</p>
 							
-					<p><a href="#" class="btn btn-default btn-lg">Download CV</a></p>
+					<p><a href="#" class="btn btn-default btn-lg">Curriculum Vitae</a></p>
 						</div>
 					</div>
 				</div>
@@ -92,7 +90,7 @@
 	<div id="fh5co-about" class="animate-box">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" id="about">
 					<h2>About Me</h2>
 				</div>
 			</div>
@@ -116,8 +114,54 @@
 		</div>
 	</div>
 
+	
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container" id="skills">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<div style="display: flex; align-items: center; justify-content: center;">
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Android Studio</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Java</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Swift</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">JavaScript</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Python</span></h3>
+				</div>
+			</div>
+			<br>
+			<div style="display: flex; align-items: center; justify-content: center;">
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">C</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Figma</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">Cisco</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">SQL</span></h3>
+				</div>
+				<div class="col-md-2 skills">
+					<h3><span class="name-left">HTML5/CSS</span></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
+		<div class="container" id="resume">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>My Resume</h2>
@@ -231,32 +275,9 @@
 		</div>
 	</div>
 
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6>
-					<h3><span class="name-left">Android Studio</span></h3>
-					<h3><span class="name-right">Android Studio</span></h3>
-					<h3><span class="name-left">Android Studio</span></h3>
-					<h3><span class="name-right">Android Studio</span></h3>
-				</div>
-				<div class="col-md-6">
-					<h3><span class="name-left">Android Studio</span></h3>
-					<h3><span class="name-right">Android Studio</span></h3>
-					<h3><span class="name-left">Android Studio</span></h3>
-					<h3><span class="name-right">Android Studio</span></h3>
-				</div>
-			</div>
-		</div>
-	</div>
 	
 	<div id="fh5co-work">
-		<div class="container">
+		<div class="container" id="portofolio">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Projects</h2>
@@ -264,31 +285,33 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+					<a href="#" class="work" style="background-image: url(images/ab.jpg);">
 						<div class="desc">
 							<h3>Bluejack Pharmacy</h3>
 							<span>Android Java Application</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/choe.jpg);">
 						<div class="desc">
 							<h3>Gaskeun</h3>
 							<span>Android Java Application</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+				<div class="col-md-5 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/hye.jpg);">
 						<div class="desc">
 							<h3>Redbull News</h3>
 							<span>Android Java Application</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+			</div>
+			<div class="row">
+				<div class="col-md-5 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/hyem.jpg);">
 						<div class="desc">
 							<h3>Jae Kee Boards</h3>
 							<span>JavaFX Application</span>
@@ -296,28 +319,29 @@
 					</a>
 				</div>
 				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+					<a href="#" class="work" style="background-image: url(images/lip.jpeg);">
 						<div class="desc">
 							<h3>AA Hotel</h3>
 							<span>Simple Website</span>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/won.png);">
 						<div class="desc">
 							<h3>To-do list Website</h3>
 							<span>Simple Website</span>
 						</div>
 					</a>
 				</div>
+			</div>
 				
 				
 			</div>
 			<br>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h3></h3>
+			<div class="row animate-box" id="cv">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading" style="margin-top: 3em; margin-bottom: -3em;">
+					<p><a href="#" class="btn btn-default btn-lg" style="background-color: rgba(163, 62, 70, 0.9); color: white;">Check out my CV here!</a></p>
 				</div>
 			</div>
 		</div>
@@ -366,7 +390,6 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
 	</body>
 </html>
 
