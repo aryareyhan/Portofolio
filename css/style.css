@@ -366,7 +366,7 @@ figure {
   font-weight: bold;
 }
 .info li .second-block {
-  width: 61%;
+  width: 100%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
 }
